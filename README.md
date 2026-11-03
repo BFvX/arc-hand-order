@@ -73,6 +73,7 @@ src/arc_hand_order/
   devices/                   设备文件
 docs/FORMAT.md               输入输出格式
 tests/
+LICENSE                      GPL-3.0 全文
 ```
 
 ## 限制
@@ -83,3 +84,11 @@ tests/
   - 平板平放固定，相机按固定姿态计算。
 - 规划只按 FORMAT.md 1.4 的触点规则进行，不做判定，计划里也没有判定结果。
 - 只显示、不判定的音符，黑线，以及零长度的 hold 和 arc 不参与。
+
+## 许可证
+
+本项目按 GNU 通用公共许可证第 3 版（GPL-3.0）发布，全文见 [LICENSE](LICENSE)。
+
+以下两部分参照 [ArcCreate](https://github.com/Arcthesia/ArcCreate)（GPL-3.0）的实现编写：
+- arc 曲线的计算：`src/arc_hand_order/chart/interpolation.py`；
+- arc 连接的建立：`src/arc_hand_order/chart/arc_connections.py`。

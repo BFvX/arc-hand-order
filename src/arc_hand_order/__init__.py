@@ -4,4 +4,4 @@ Public entry points: ``arc_hand_order.api`` (load a chart and a device, plan wit
 ``python -m arc_hand_order`` (the same from the command line). See README.md and docs/FORMAT.md.
 """
 
-__version__ = "1.0.0"
+__version__ = "1.0.1"
